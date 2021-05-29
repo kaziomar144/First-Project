@@ -1,0 +1,93 @@
+/*Tablet Layout*/
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+  .inner_header {
+    padding: 10px 0;
+  }
+  .social_area {
+    max-width: 450px;
+  }
+  .inner_menu {
+    background: none;
+    min-height: 0px;
+    padding: 0px 0;
+  }
+.inner_menu ::after {
+    background: none;
+}
+  #slider_area {
+    margin-top: 0px;
+  }
+  .inner_hero h2 {
+    font-size: 55px;
+  }
+  .mean-container .mean-nav ul span{
+    display: none;
+}
+}
+/*Mobile Layout*/
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+  .mini_menu {
+    padding-top: 0px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .mini_menu ul {
+    text-align: center;
+  }
+  .search_area,
+  .logo_area,
+  .social_area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .social_area ul li {
+    margin: 0 5px;
+  }
+  /* .logo_area {float: none;width: 240px;margin: 0 auto;} */
+  #slider_area {
+    margin-top: 13px;
+  }
+  .slider_caption h1 {
+    font-size: 20px;
+  }
+  .inner_hero {
+    padding-bottom: 20px;
+  }
+  .inner_hero img {
+    margin-bottom: 10px;
+  }
+  .inner_hero h2 {
+    font-size: 25px;
+  }
+  .child_work {
+    width: 98%;
+    margin: 0px 2% 10px;
+  }
+  .child_service_control,
+  .about_area img,
+  .child_testmonial_control {
+    margin-top: 0px;
+  }
+  .child_service .service_image {
+    width: 22%;
+    margin-right: 0%;
+  }
+  .child_service .service_text {
+    width: 78%;
+  }
+  .child_footer {
+    width: 96%;
+  }
+  .child_footer li:last-child {
+    border-bottom: 0px solid;
+  }
+  .left_copyright {
+    width: 100%;
+  }
+  .right_copyright {
+    float: left;
+    width: 100%;
+    text-align: left;
+  }
+}
